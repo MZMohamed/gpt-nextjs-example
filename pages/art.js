@@ -28,7 +28,7 @@ export default function MyPage() {
 
   return (
     <div className="container">
-      <h1>What Do You Want a Happy Painting Of?</h1>
+      <h1>What Do You want a picture Of?</h1>
       <form className="our-form" onSubmit={handleSubmit}>
         <input className="prompt-field" type="text" onChange={handleChange} />
         <button className="prompt-button">Go!</button>
